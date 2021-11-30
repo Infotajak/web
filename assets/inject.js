@@ -6,24 +6,7 @@ let dbAds=[
       ".content"
     ],
     "position":"out-top", //out-top, out-bottom, in-top, in-bottom
-    "data" :`<div id="banner-container" style="width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:10px;z-index:999;-webkit-transform:translateZ(0);">
-        <div style="margin-bottom: 10px;">
-<a onclick="document.getElementById(&quot;banner-container&quot;).style.display = &quot;none&quot;;" style="cursor:pointer;"><span style="vertical-align:middle; background: yellow; padding: 0px 11.3px 3px 11.3px; border: 3px solid red; color: red; font-size: 1em; font-weight: bold; border-radius: 100px;"> close </span></a>
-</div>
-<div style="text-align:center;display:block;max-width:300px;height:250px;overflow:hidden;margin:auto; border: 3px solid red; background: yellow;">
-
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'adc1e9d02729faab00f9d20f138a3197',
-		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://outsetnormalwaited.com/adc1e9d02729faab00f9d20f138a3197/invoke.js"></scr' + 'ipt>');
-</script>
-</div>
-</div>
+    "data" :`
     `,
     "style":`
       width: 90%;
@@ -98,3 +81,4 @@ dataLazy.forEach(function(a){
 });
 (function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//outsetnormalwaited.com/69/45/98/69459833932827a54afe9226641141b8.js"}],"tag":"script","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 (function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//outsetnormalwaited.com/2c/73/11/2c7311a757e670d47868bf011866886d.js"}],"tag":"script","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
+(function(){injectScript([{"attr":[{"name":"id","value":"banner-container"},{"name":"style","value":"width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:10px;z-index:999;-webkit-transform:translateZ(0);"}],"tag":"div","inner":"\n        <div style=\"margin-bottom: 10px;\">\n<a onclick=\"document.getElementById(&quot;banner-container&quot;).style.display = &quot;none&quot;;\" style=\"cursor:pointer;\"><span style=\"vertical-align:middle; background: yellow; padding: 0px 11.3px 3px 11.3px; border: 3px solid red; color: red; font-size: 1em; font-weight: bold; border-radius: 100px;\"> close </span></a>\n</div>\n<div style=\"text-align:center;display:block;max-width:300px;height:250px;overflow:hidden;margin:auto; border: 3px solid red; background: yellow;\">\n\n<script type=\"text/javascript\">\n\tatOptions = {\n\t\t'key' : 'adc1e9d02729faab00f9d20f138a3197',\n\t\t'format' : 'iframe',\n\t\t'height' : 250,\n\t\t'width' : 300,\n\t\t'params' : {}\n\t};\n\tdocument.write('<scr' + 'ipt type=\"text/javascript\" src=\"http' + (location.protocol === 'https:' ? 's' : '') + '://outsetnormalwaited.com/adc1e9d02729faab00f9d20f138a3197/invoke.js\"></scr' + 'ipt>');\n</script>\n</div>\n"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
