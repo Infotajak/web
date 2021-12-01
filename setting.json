@@ -2,7 +2,7 @@
   "name-web":"Time News",
   "author":"NewsMaster",
   "remove-comment-html":true,
-  "target":"https://time.com/",
+  "target":"https://www.udemy.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
