@@ -2,7 +2,7 @@
   "name-web":"Hollywood",
   "author":"Reporter",
   "remove-comment-html":true,
-  "target":"https://www.hollywoodreporter.com/c/movies/",
+  "target":"https://www.rottentomatoes.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"hollywoodreporter.com",
+      "target":"rottentomatoes.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://hollywoodreporter.com",
+          "target":"https://rottentomatoes.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.hollywoodreporter.com",
+      "target":"m.rottentomatoes.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive"
