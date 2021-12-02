@@ -2,7 +2,7 @@
   "name-web":"Agc Nodejs",
   "author":"News",
   "remove-comment-html":true,
-  "target":"https://time.com/",
+  "target":"https://m.tribunnews.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"time.com",
+      "target":"m.tribunnews.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://m.time.com",
+          "target":"https://m.tribunnews.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.time.com",
+      "target":"m.tribunnews.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive"
@@ -41,7 +41,7 @@
       "replace-string":[]
     },
     {
-      "target":"https://www.huffpost.com/",
+      "target":"domain1.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive"
@@ -49,7 +49,7 @@
       "replace-string":[]
     },
     {
-      "target":"https://www.usatoday.com/",
+      "target":"domain2.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive"
