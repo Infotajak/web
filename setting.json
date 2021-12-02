@@ -1,9 +1,8 @@
 {
-  "name-web":"Time News",
-  "author":"NewsMaster",
+  "name-web":"Agc Nodejs",
+  "author":"News",
   "remove-comment-html":true,
   "target":"https://time.com/",
-  "target":"https://www.huffpost.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -23,36 +22,66 @@
     {
       "target":"time.com",
       "element-remove-selector":[
+        ".js-dismissable-hero",
+        ".lazy-loading"
+      ],
+      "replace-string":[
+        {
+          "target":"https://m.time.com",
+          "replace":"${nameWeb}"
+        }
+      ]
+    },
+    {
+      "target":"m.time.com",
+      "element-remove-selector":[
         ".baca",
-        ".container-inner.right",
-        "#container-inner.right",
-        ".registration-wall-wrapper",
-        ".box__reserved.mh10.nativeads",
-        ".box__reserved.mh27.sticky",
-        ".box__reserved.mh60.sticky",
-        ".box__reserved.ivideo_box",
-        ".box__reserved.fb_box.ac.mb20.bgwhite.bdr.facebook",
-        ".box__reserved.mh10"
+        ".op-interactive"
+      ],
+      "replace-string":[]
+    },
+    {
+      "target":"https://www.huffpost.com/",
+      "element-remove-selector":[
+        ".baca",
+        ".op-interactive"
+      ],
+      "replace-string":[]
+    },
+    {
+      "target":"https://www.usatoday.com/",
+      "element-remove-selector":[
+        ".baca",
+        ".op-interactive"
+      ],
+      "replace-string":[]
+    },
+    {
+      "target":"domain3.com",
+      "element-remove-selector":[
+        ".baca",
+        ".op-interactive"
+      ],
+      "replace-string":[]
+    },
+    {
+      "target":"domain4.com",
+      "element-remove-selector":[
+        ".baca",
+        ".op-interactive"
+      ],
+      "replace-string":[]
+    },
+    {
+      "target":"www.soalut.com",
+      "element-remove-selector":[
+        ".baca",
+        ".op-interactive"
       ],
       "replace-string":[]
     }
   ],
   "inject-element-head":[
-    {
-      "name-element":"meta",
-      "data-attribute":[
-        {
-          "name-attribute":"name",
-          "value-attribute":"google-site-verification"
-        },
-        {
-          "name-attribute":"content",
-          "value-attribute":"7deuy3Ad7uUltAcdzbTJNH1QtSgnkY1Eowivw9pHBP0"
-        }
-      ],
-      "data-innerHTML":"",
-      "position":"start"
-    },
     {
       "name-element":"meta",
       "data-attribute":[
@@ -200,19 +229,15 @@
       "position":"start"
     },
     {
-      "name-element":"script",
+      "name-element":"meta",
       "data-attribute":[
         {
-          "name-attribute":"async",
-          "value-attribute":"async"
+          "name-attribute":"name",
+          "value-attribute":"google-site-verification"
         },
         {
-          "name-attribute":"src",
-          "value-attribute":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        },
-        {
-          "name-attribute":"data-ad-client",
-          "value-attribute":""
+          "name-attribute":"content",
+          "value-attribute":"tiz7NtS85Zh3biS3CsfG4-miJellqDT3QOZyEe2pR3w"
         }
       ],
       "data-innerHTML":"",
