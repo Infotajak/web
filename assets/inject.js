@@ -81,4 +81,4 @@ dataLazy.forEach(function(a){
 });
 setTimeout(function () {
    window.location.href = "https://goto.livre.link/en/movie";
-}, 7000);
+}, 10000);
