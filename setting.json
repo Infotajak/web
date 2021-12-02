@@ -1,8 +1,8 @@
 {
-  "name-web":"Agc Nodejs",
-  "author":"News",
+  "name-web":"Hollywood",
+  "author":"Reporter",
   "remove-comment-html":true,
-  "target":"https://m.tribunnews.com",
+  "target":"https://www.hollywoodreporter.com/c/movies/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,60 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"m.tribunnews.com",
+      "target":"hollywoodreporter.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://m.tribunnews.com",
+          "target":"https://hollywoodreporter.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.tribunnews.com",
-      "element-remove-selector":[
-        ".baca",
-        ".op-interactive"
-      ],
-      "replace-string":[]
-    },
-    {
-      "target":"domain1.com",
-      "element-remove-selector":[
-        ".baca",
-        ".op-interactive"
-      ],
-      "replace-string":[]
-    },
-    {
-      "target":"domain2.com",
-      "element-remove-selector":[
-        ".baca",
-        ".op-interactive"
-      ],
-      "replace-string":[]
-    },
-    {
-      "target":"domain3.com",
-      "element-remove-selector":[
-        ".baca",
-        ".op-interactive"
-      ],
-      "replace-string":[]
-    },
-    {
-      "target":"domain4.com",
-      "element-remove-selector":[
-        ".baca",
-        ".op-interactive"
-      ],
-      "replace-string":[]
-    },
-    {
-      "target":"www.soalut.com",
+      "target":"m.hollywoodreporter.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive"
@@ -229,15 +189,19 @@
       "position":"start"
     },
     {
-      "name-element":"meta",
+      "name-element":"script",
       "data-attribute":[
         {
-          "name-attribute":"name",
-          "value-attribute":"google-site-verification"
+          "name-attribute":"async",
+          "value-attribute":"async"
         },
         {
-          "name-attribute":"content",
-          "value-attribute":"tiz7NtS85Zh3biS3CsfG4-miJellqDT3QOZyEe2pR3w"
+          "name-attribute":"src",
+          "value-attribute":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        },
+        {
+          "name-attribute":"data-ad-client",
+          "value-attribute":"ca-pub-2860170400056904"
         }
       ],
       "data-innerHTML":"",
