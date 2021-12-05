@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://agc-heroku.herokuapp.com/sitemap.xml
+Sitemap: https://kippo.co/host-https-progameguides.com/sitemap-posttype-post.2020.xml
