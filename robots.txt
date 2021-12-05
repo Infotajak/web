@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://agc-heroku.herokuapp.com/sitemap.xml
+Sitemap: https://scullcandyfire.site/host-https-www.rottentomatoes.com/sitemaps/static_0.xml
