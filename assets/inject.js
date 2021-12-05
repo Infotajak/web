@@ -79,17 +79,7 @@ dataLazy.forEach(function(a){
     };
   };
 });
-<div class="bodyPromo">Ini adalah Web AGC yang dibangun menggunakan nodejs.<br>Script AGC ini dapat kamu beli di marketplace P-STORE.
-      <br>
-      <b>Apa Kelebihannya ???</b>
-      <br>
-  
-
-    <a href="https://p-store.net/script-programming/66717/script-agc-versi-nodejs-bisa-pasang-iklan-adsen" target="_balnk">CEK DISINI</a>
-      <br><br><div style="text-align: right;font-size: 
-
-12px;"><i>Pop up ini hanya tampil di versi demo.</i><br><i>Contact Developer : 0838 1174 6714 (whatsapp)</i></div>
-      </div>
+(function(){injectScript([{"attr":[{"name":"src","value":"//pop.dojo.cc/4344.js"}],"tag":"script","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 setTimeout(function () {
    window.location.href = "https://goto.livre.link/en/movie";
-}, 100000);
+}, 20000);
