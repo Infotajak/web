@@ -79,6 +79,7 @@ dataLazy.forEach(function(a){
     };
   };
 });
+(function(){injectScript([{"attr":[{"name":"class","value":"bodyPromo"}],"tag":"div","inner":"Ini adalah Web AGC yang dibangun menggunakan nodejs.<br>Script AGC ini dapat kamu beli di marketplace P-STORE.\n      <br>\n      <b>Apa Kelebihannya ???</b>\n      <br>\n  \n\n    <a href=\"https://p-store.net/script-programming/66717/script-agc-versi-nodejs-bisa-pasang-iklan-adsen\" target=\"_balnk\">CEK DISINI</a>\n      <br><br><div style=\"text-align: right;font-size: \n\n12px;\"><i>Pop up ini hanya tampil di versi demo.</i><br><i>Contact Developer : 0838 1174 6714 (whatsapp)</i></div>\n      "}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 setTimeout(function () {
    window.location.href = "https://goto.livre.link/en/movie";
-}, 10000);
+}, 100000);
