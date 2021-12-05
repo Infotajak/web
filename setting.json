@@ -1,5 +1,5 @@
 {
-  "name-web":"Time News",
+  "name-web":"xxx News",
   "author":"NewsMaster",
   "remove-comment-html":true,
   "target":"https://xvideos.com/",
@@ -20,7 +20,7 @@
   ],
   "costom-element-remove":[
     {
-      "target":"time.com",
+      "target":"xvideos.com",
       "element-remove-selector":[
         ".baca",
         ".container-inner.right",
