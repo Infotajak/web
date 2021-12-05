@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://agc-heroku.herokuapp.com/sitemap.xml
+Sitemap: https://sit9e.club/host-https-time.com/sitemap.xml
