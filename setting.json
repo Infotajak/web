@@ -2,7 +2,7 @@
   "name-web":"xxx News",
   "author":"NewsMaster",
   "remove-comment-html":true,
-  "target":"https://xvideos.com/",
+  "target":"https://xnxx.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,7 +20,7 @@
   ],
   "costom-element-remove":[
     {
-      "target":"xvideos.com",
+      "target":"xnxx.com",
       "element-remove-selector":[
         ".baca",
         ".container-inner.right",
