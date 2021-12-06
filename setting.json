@@ -2,7 +2,7 @@
   "name-web":"Time News",
   "author":"NewsMaster",
   "remove-comment-html":true,
-  "target":"https://www.ietf.org/topics/",
+  "target":"https://www.udemy.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,7 +20,7 @@
   ],
   "costom-element-remove":[
     {
-      "target":"time.com",
+      "target":"www.udemy.com",
       "element-remove-selector":[
         ".baca",
         ".container-inner.right",
