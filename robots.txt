@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://onsiteproject.online/sitemap.xml
+Sitemap: https://bdigitalsolution.online/host-https-www.pinterest.com/v3_sitemaps/readable_single_image_pin_url_www.pinterest.com.xml
