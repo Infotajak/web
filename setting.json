@@ -2,7 +2,7 @@
   "name-web":"Time News",
   "author":"NewsMaster",
   "remove-comment-html":true,
-  "target":"https://www.udemy.com/",
+  "target":"https://www.pinterest.com/ideas/food-and-drink/918530398158/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,7 +20,7 @@
   ],
   "costom-element-remove":[
     {
-      "target":"www.udemy.com",
+      "target":"https://www.pinterest.com/ideas/food-and-drink/918530398158/",
       "element-remove-selector":[
         ".baca",
         ".container-inner.right",
