@@ -1,8 +1,8 @@
 {
-  "name-web":"xxx News",
-  "author":"NewsMaster",
+  "name-web":"Wiki Database",
+  "author":"WikiMaster",
   "remove-comment-html":true,
-  "target":"https://xvideos.com/",
+  "target":"https://www.wikidata.org/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,7 +20,7 @@
   ],
   "costom-element-remove":[
     {
-      "target":"xvideos.com",
+      "target":"www.wikidata.org",
       "element-remove-selector":[
         ".baca",
         ".container-inner.right",
